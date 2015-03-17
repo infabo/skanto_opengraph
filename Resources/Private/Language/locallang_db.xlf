@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-22T20:42:45Z" product-name="skanto_opengraph">
+		<header/>
+		<body>
+			<trans-unit id="pages.tx_skantoopengraph_palette">
+				<source>Open Graph</source>
+			</trans-unit>
+			<trans-unit id="pages.tx_skantoopengraph_title">
+				<source>Open Graph Title</source>
+			</trans-unit>
+			<trans-unit id="pages.tx_skantoopengraph_description">
+				<source>Open Graph Description</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

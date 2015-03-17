@@ -1,0 +1,33 @@
+plugin.tx_skantoopengraph {
+	settings {
+		maxImageWidth = {$plugin.tx_skantoopengraph.settings.maxImageWidth}
+		maxImageHeight = {$plugin.tx_skantoopengraph.settings.maxImageHeight}
+		minImageWidth = {$plugin.tx_skantoopengraph.settings.minImageWidth}
+		minImageHeight = {$plugin.tx_skantoopengraph.settings.minImageHeight}
+		
+		defaultImage = {$plugin.tx_skantoopengraph.settings.defaultImage}
+		siteName = {$plugin.tx_skantoopengraph.settings.siteName}
+	}
+}
+
+#tt_content.image.8810 = USER
+#tt_content.image.8810 {
+##	userFunc = Skanto\SkantoOpengraph\Service\OpenGraphService->addUrl
+##	url = TEXT
+##	url {
+#		cObject = IMG_RESOURCE
+#		cObject {
+#			file {
+#				#import < tt_content.image.20.imgList
+#				import.current = 1
+#				maxW = 1500
+#				maxH = 1500
+#		}
+#	}
+#	
+#}
+
+
+## this unsets the original html tag. bäh!
+# config.htmlTag_setParams := appendString(xmlns:og="http://ogp.me/ns#")
+

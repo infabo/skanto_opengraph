@@ -1,0 +1,11 @@
+plugin.tx_skantoopengraph {
+	settings {
+		maxImageWidth = 1500
+		maxImageHeight = 1500
+		minImageWidth = 200
+		minImageHeight = 200
+		
+		defaultImage = 
+		siteName = 
+	}
+}
